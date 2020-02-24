@@ -2,26 +2,23 @@ package codeup.recursion;
 
 import java.util.Scanner;
 
-//Àç±ÍÇÔ¼ö	(Recursion)
-//		: ÇÔ¼ö Á¤ÀÇ¿¡¼­ ÀÚ±â ÀÚ½ÅÀ» È£ÃâÇÏ´Â ÇÔ¼ö
-  
+//ì¬ê·€í•¨ìˆ˜	(Recursion)
+//: í•¨ìˆ˜ ì •ì˜ì—ì„œ ìê¸° ìì‹ ì„ í˜¸ì¶œí•˜ëŠ” í•¨ìˆ˜
+
 public class _1905 {
-	
-	public static int res (int n) {
+
+	public static int res(int n) {
 		// 5+4+3+2+1    
-		// ( Á¶°Ç  n == 0 )
-		if( n == 0)
+		// ( ì¡°ê±´  n == 0 )
+		if (n == 0)
 			return 0;
-			
+
 		return n + res(--n);
 	}
-	
-	
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-//		_1905 s = new _1905();
-		
 		int answer = res(n);
 		System.out.println(answer);
 	}
