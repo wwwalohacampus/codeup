@@ -2,6 +2,7 @@ package codeup.sort;
 
 import java.util.Scanner;
 
+// 선택정렬
 public class _1442 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -16,7 +17,7 @@ public class _1442 {
 		for (int i = 0; i < n; i++) {
 			for (int j = i+1; j < n ; j++) {
 				if( arr[i] > arr[j] ) {
-					// ��ȯ���� (swap)
+					// 교환패턴 (swap)
 					int temp = arr[i];
 					arr[i] = arr[j];
 					arr[j] = temp;

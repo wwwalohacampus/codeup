@@ -2,6 +2,7 @@ package codeup.sort;
 
 import java.util.Scanner;
 
+// 버블정렬
 public class _1441 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
