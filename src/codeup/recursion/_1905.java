@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //재귀함수	(Recursion)
 //		: 함수 정의에서 자기 자신을 호출하는 함수
-
+  
 public class _1905 {
 	
 	public static int res (int n) {
