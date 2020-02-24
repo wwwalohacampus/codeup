@@ -28,5 +28,5 @@ public class _1442 {
 			System.out.println(arr[i]);
 		}
 	}
-}
+} 
   
