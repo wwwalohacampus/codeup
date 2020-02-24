@@ -16,7 +16,7 @@ public class _1442 {
 		for (int i = 0; i < n; i++) {
 			for (int j = i+1; j < n ; j++) {
 				if( arr[i] > arr[j] ) {
-					// ±³È¯ÆÐÅÏ (swap)
+					// ï¿½ï¿½È¯ï¿½ï¿½ï¿½ï¿½ (swap)
 					int temp = arr[i];
 					arr[i] = arr[j];
 					arr[j] = temp;
@@ -29,3 +29,4 @@ public class _1442 {
 		}
 	}
 }
+  
