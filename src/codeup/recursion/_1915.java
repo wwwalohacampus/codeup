@@ -2,10 +2,10 @@ package codeup.recursion;
 
 import java.util.Scanner;
 
+// 피보나치 수열
 public class _1915 {
 	
 	public static int fibo(int n) {
-		
 		if( n < 3 )
 			return 1;
 		

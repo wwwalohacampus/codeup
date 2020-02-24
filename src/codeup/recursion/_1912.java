@@ -2,20 +2,19 @@ package codeup.recursion;
 
 import java.util.Scanner;
 
+// íŽ™í† ë¦¬ì–¼
 public class _1912 {
 	
 	// 5 4 3 2 1
 	// 5 * 4 * 3 * 2 * 1 
 	public static int fact(int n) {
-		
-		// Á¾·áÁ¶°Ç
+		// ì¢…ë£Œì¡°ê±´
 		if(n == 0)
 			return 1;
 		
-		// Àç±Í Á¶°Ç
+		// ìž¬ê·€ ì¡°ê±´
 		return n * fact(n-1);
 	}
-	
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -25,5 +24,3 @@ public class _1912 {
 		System.out.println( answer );
 	}
 }
-
-
