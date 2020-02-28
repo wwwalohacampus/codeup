@@ -27,6 +27,7 @@ public class _1441 {
 			System.out.println(arr[i]);
 		}
 		
+		sc.close();
 	}
 }
 
