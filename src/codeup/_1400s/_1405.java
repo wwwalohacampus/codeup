@@ -3,7 +3,7 @@ package codeup._1400s;
 import java.util.Scanner;
 
 // 숫자 로테이션
-public class _1404 {
+public class _1405 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
