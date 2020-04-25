@@ -6,12 +6,12 @@ public class _1231 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String fom = sc.nextLine();
-		String[] fomArr = new String[2];
+		String[] fomArr = new String[2];  
 		char opr = ' ';
 		int result = 0;
 		
 		if(fom.contains("+")) {
-			fomArr = fom.split("\\+");
+			fomArr = fom.split("\\+");		
 			opr = '+';
 		}
 		if(fom.contains("-")) {
